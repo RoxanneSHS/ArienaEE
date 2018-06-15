@@ -1,0 +1,142 @@
+IF 
+  HotKey(T) 
+THEN 
+  RESPONSE #100 
+    StartCutSceneMode() 
+    StartCutScene("MWARNFIX") 
+END
+
+IF
+InParty(Myself)
+Global("Aratalktoplay","LOCALS",0)
+THEN
+RESPONSE #100
+SetGlobal("Aratalktoplay","LOCALS",1)
+SetGlobalTimer("Ar_Tale1","GLOBAL",THREE_DAYS)
+END
+
+IF
+InParty(Myself)
+GlobalTimerExpired("Ar_Tale1","GLOBAL")
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!AreaType(DUNGEON)
+Global("beeninprison","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobalTimer("Ar_Combat","GLOBAL",FIVE_DAYS)
+SetGlobal("beeninprison","GLOBAL",1)
+FaceObject(Player1)
+Dialog(Player1)
+END
+
+IF
+InParty(Myself)
+GlobalTimerExpired("Ar_Combat","GLOBAL")
+HPPercentGT("MWAriena",85)
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+Global("Arcombatbohu","GLOBAL",0)
+CombatCounter(0)
+AreaType(OUTDOOR)
+THEN
+RESPONSE #100
+SetGlobalTimer("Ar_Tale2","GLOBAL",THREE_DAYS)
+CreateCreatureObjectOffScreen("MWBohul",Myself,0,0,0)
+CreateCreatureObjectOffScreen("MWBohum",Myself,0,0,0)
+CreateCreatureObjectOffScreen("MWBohu1",Myself,0,0,0)
+CreateCreatureObjectOffScreen("MWBohu2",Myself,0,0,0)
+CreateCreatureObjectOffScreen("MWBohu3",Myself,0,0,0)
+CreateCreatureObjectOffScreen("MWBohu4",Myself,0,0,0)
+CreateCreatureObjectOffScreen("MWBohu5",Myself,0,0,0)
+SetGlobal("Arcombatbohu","GLOBAL",1)
+END
+
+IF
+InParty(Myself)
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!AreaType(DUNGEON)
+Dead("Bohunl")
+Global("After_Arco","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("After_Arco","GLOBAL",1)
+FaceObject(Player1)
+Dialog(Player1)
+END
+
+IF
+InParty(Myself)
+GlobalTimerExpired("Ar_Tale2","GLOBAL")
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!AreaType(DUNGEON)
+Global("After_Arco","GLOBAL",2)
+Global("Powerfulwarrior","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobalTimer("Ar_Quest","GLOBAL",THREE_DAYS)
+SetGlobal("Powerfulwarrior","GLOBAL",1)
+FaceObject(Player1)
+Dialog(Player1)
+END
+
+IF
+InParty(Myself)
+GlobalTimerExpired("Ar_Quest","GLOBAL")
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+!AreaType(DUNGEON)
+GlobalGT("CHAPTER","GLOBAL",%bg2_chapter_2%)
+Global("aasimarmom","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("aasimarmom","GLOBAL",1)
+FaceObject(Player1)
+Dialog(Player1)
+END
+
+IF
+InParty(Myself)
+See(Player1)
+CombatCounter(0)
+AreaType(FOREST)
+PartyRested()
+Global("Arnightout","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("Arnightout","GLOBAL",1)
+Dialog(Player1)
+END
+
+IF
+InParty(Myself)
+Dead("Gladiator")
+!Dead("Lehtinan")
+Global("Ar_Glad","LOCALS",0)
+THEN
+RESPONSE #100
+SetGlobal("Ar_Glad","LOCALS",1)
+Dialog(Player1)
+END
+
+IF
+InParty(Myself)
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)
+CombatCounter(0)
+PartyRested()
+GlobalGT("CHAPTER","GLOBAL",%bg2_chapter_7%)
+Global("silentAriena","GLOBAL",0)
+!Global("ArienaSummoned","GLOBAL",1)
+THEN
+RESPONSE #100
+SetGlobal("silentAriena","GLOBAL",1)
+FaceObject(Player1)
+Dialog(Player1)
+END

@@ -1,0 +1,325 @@
+BACKUP ~Ariena\Backup~
+//AUTHOR ~Deathsangel deathsangel@spellholdstudios.net~
+SUPPORT ~http://baldursextendedworld.com/Vanilla_Forums/categories/mod-help~
+VERSION ~v3.0~
+
+/************************************************************************
+ ************************************************************************
+ **                      Created by Guido Voets                        **
+ ************************************************************************
+ ************************************************************************/
+
+AUTO_TRA ~Ariena/%s~
+
+ALWAYS
+  
+ACTION_IF (GAME_IS ~eet~) BEGIN
+    
+OUTER_SET bg2_chapter = 12
+  END 
+ELSE BEGIN
+    OUTER_SET bg2_chapter = 0
+  END
+  
+OUTER_FOR (i=1; i<=10; i=i+1) BEGIN
+    OUTER_SET bg2_chapter = bg2_chapter + 1
+    
+OUTER_SPRINT name_source ~bg2_chapter_%i%~
+    
+OUTER_SET EVAL ~%name_source%~ = bg2_chapter
+  
+END
+
+END
+
+
+
+LANGUAGE ~English~ ~english~ ~Ariena\english\setup.tra~
+
+BEGIN @0
+
+REQUIRE_PREDICATE GAME_IS ~bg2ee eet~ ~This mod is exclusive for EE games~
+
+COPY_EXISTING ~SPCL152.spl~ ~override\BLRINI.spl~
+ SAY NAME1 @2
+ SAY NAME2 @2
+
+ADD_KIT ~PitFighter~
+
+// clasweap
+~PitFighter              1           1           1           1           1           1           1           1~
+
+// weapprof
+~PitFighter 5 5 0 5 5 5 5 0 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 0 0 0 0 3 2 2 2 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~
+//								   x
+// abclasrq, abclsmod, abdcdsrq, abdcscrq, alignmnt, dualclas
+~PitFighter              9       0       0       0       0       0~
+~PitFighter              0       0       0       0       0       0~
+~PitFighter              0       0       0       0       0       0~
+~PitFighter              0       0       0       0       0       0~
+~PitFighter              1       1       1       1       1       1       1       1       1~
+~PitFighter              0       0       0       0       0       0~
+
+// CLAB*.2da file
+~Ariena\ArienaKit\PitFit.2da~
+
+// kittable.2da
+~~
+
+// Item usability
+~0x40000000     2~ // Same as Barbarian
+
+~Fi0~
+~LEAT20 DART03,40 HELM07 BAG26 RING06 RING31 CLCK27 BOOT01 AMUL19 BRAC10 BELT06 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN04,2 POTN14,5 BOW11 BOW19 XBOW06~
+
+// Names
+SAY @3
+SAY @3
+SAY @4
+
+INCLUDE ~Ariena/ArienaKit/fl#add_kit_ee.tpa~
+LAF fl#add_kit_ee 
+STR_VAR 
+kit_name = PitFighter
+END
+
+COPY ~Ariena\ArienaKit\pitf01.spl~
+~override\pitf01.spl~
+SAY NAME1 @5
+
+COPY ~Ariena\ArienaKit\COPY~ ~override~
+
+COPY ~Ariena\cre\MWArn.cre~ ~override\MWArn.cre~
+ WRITE_SHORT   0x244 0
+ WRITE_SHORT   0x246 0x4000 + ~%PitFighter%~    
+ SAY NAME1 @6
+ SAY NAME2 @6
+ SAY MORALE @7 
+ SAY HAPPY @8 
+ SAY UNHAPPY_ANNOYED @9 
+ SAY UNHAPPY_SERIOUS @10 
+ SAY UNHAPPY_BREAKING @11 
+ SAY BATTLE_CRY1 @12 
+ SAY LEADER @13 
+ SAY TIRED @14 
+ SAY BORED @15 
+ SAY HURT @16 
+ SAY SELECT_COMMON1 @17 
+ SAY SELECT_COMMON2 @18 
+ SAY SELECT_COMMON3 @19 
+ SAY SELECT_ACTION1 @20 
+ SAY SELECT_ACTION2 @21 
+ SAY SELECT_ACTION3 @22 
+ SAY DAMAGE @23 
+ SAY DYING @24 
+ SAY AREA_FOREST @25 
+ SAY AREA_CITY @26 
+ SAY AREA_DUNGEON @27 
+ SAY AREA_DAY @28 
+ SAY AREA_NIGHT @29 
+ SAY SELECT_ACTION4 @30 
+ SAY SELECT_ACTION5 @31 
+ SAY SELECT_ACTION6 @32 
+ SAY SELECT_RARE2 @33 
+ SAY SELECT_COMMON4 @34 
+ SAY SELECT_COMMON5 @35 
+ SAY CRITICAL_HIT @36 
+ SAY CRITICAL_MISS @37 
+ SAY TARGET_IMMUNE @38 
+ SAY INVENTORY_FULL @39 
+ SAY BATTLE_CRY2 @40 
+ SAY BATTLE_CRY3 @41 
+ SAY SELECT_COMMON6 @42 
+ SAY SELECT_RARE1 @43 
+ SAY REACT_TO_DIE_GENERAL @44 
+ SAY BIO @45
+
+COPY ~Ariena\cre\MWArn25.cre~ ~override\MWArn25.cre~
+ WRITE_SHORT   0x244 0
+ WRITE_SHORT   0x246 0x4000 + ~%PitFighter%~    
+ SAY NAME1 @6
+ SAY NAME2 @6
+ SAY MORALE @7 
+ SAY HAPPY @8 
+ SAY UNHAPPY_ANNOYED @9 
+ SAY UNHAPPY_SERIOUS @10 
+ SAY UNHAPPY_BREAKING @11 
+ SAY BATTLE_CRY1 @12 
+ SAY LEADER @13 
+ SAY TIRED @14 
+ SAY BORED @15 
+ SAY HURT @16 
+ SAY SELECT_COMMON1 @17 
+ SAY SELECT_COMMON2 @18 
+ SAY SELECT_COMMON3 @19 
+ SAY SELECT_ACTION1 @20 
+ SAY SELECT_ACTION2 @21 
+ SAY SELECT_ACTION3 @22 
+ SAY DAMAGE @23 
+ SAY DYING @24 
+ SAY AREA_FOREST @25 
+ SAY AREA_CITY @26 
+ SAY AREA_DUNGEON @27 
+ SAY AREA_DAY @28 
+ SAY AREA_NIGHT @29 
+ SAY SELECT_ACTION4 @30 
+ SAY SELECT_ACTION5 @31 
+ SAY SELECT_ACTION6 @32 
+ SAY SELECT_RARE2 @33 
+ SAY SELECT_COMMON4 @34 
+ SAY SELECT_COMMON5 @35 
+ SAY CRITICAL_HIT @36 
+ SAY CRITICAL_MISS @37 
+ SAY TARGET_IMMUNE @38 
+ SAY INVENTORY_FULL @39 
+ SAY BATTLE_CRY2 @40 
+ SAY BATTLE_CRY3 @41 
+ SAY SELECT_COMMON6 @42 
+ SAY SELECT_RARE1 @43 
+ SAY REACT_TO_DIE_GENERAL @44 
+ SAY BIO @45
+
+COPY ~Ariena/2da/Arend1.2da~ ~override~
+REPLACE ~99999~ @46
+
+COPY ~Ariena/2da/Arend2.2da~ ~override~
+REPLACE ~99999~ @47
+
+COPY ~Ariena/2da/Arend3.2da~ ~override~
+REPLACE ~99999~ @48
+
+COPY ~Ariena/2da/Arend4.2da~ ~override~
+REPLACE ~99999~ @49
+
+COPY ~Ariena/2da/Arend5.2da~ ~override~
+REPLACE ~99999~ @50
+
+COPY ~Ariena/2da/Arend6.2da~ ~override~
+REPLACE ~99999~ @51
+
+ACTION_IF NOT FILE_EXISTS ~override/MWBKID.DLG~ THEN BEGIN
+COMPILE EVALUATE_BUFFER ~Ariena/d/MWBKid.d~
+END
+
+ACTION_IF NOT FILE_EXISTS ~override/MWBKID25.DLG~ THEN BEGIN
+COMPILE EVALUATE_BUFFER ~Ariena/d/MWBKid25.d~
+END
+
+ACTION_IF NOT FILE_EXISTS ~override/MWKIDJ.DLG~ THEN BEGIN
+COMPILE EVALUATE_BUFFER ~Ariena/d/MWKidJ.d~
+END
+
+ACTION_IF NOT FILE_EXISTS ~override/MWIANJ.DLG~ THEN BEGIN
+COMPILE EVALUATE_BUFFER ~Ariena/d/MWIanJ.d~
+END
+
+ACTION_IF NOT FILE_EXISTS ~override/MWKIRIJ.DLG~ THEN BEGIN
+COMPILE EVALUATE_BUFFER ~Ariena/d/MWKiriJ.d~
+END
+
+COMPILE EVALUATE_BUFFER ~Ariena/d/MWArn.d~
+
+COMPILE EVALUATE_BUFFER ~Ariena/d/MWArnP.d~
+
+COMPILE EVALUATE_BUFFER ~Ariena/d/MWBArn.d~
+
+COMPILE EVALUATE_BUFFER ~Ariena/d/MWArnJ.d~
+
+COMPILE EVALUATE_BUFFER ~Ariena/d/MWBoHuL.d~
+
+COMPILE EVALUATE_BUFFER ~Ariena/d/MWAndia.d~
+
+COMPILE EVALUATE_BUFFER ~Ariena/d/MWArn25.d~
+
+COMPILE EVALUATE_BUFFER ~Ariena/d/MWArnP25.d~
+
+COMPILE EVALUATE_BUFFER ~Ariena/d/MWBArn25.d~
+
+COMPILE EVALUATE_BUFFER ~Ariena/d/MWArnJ25.d~
+
+COMPILE EVALUATE_BUFFER ~Ariena/scripts/MWARSC.baf~
+
+COMPILE EVALUATE_BUFFER ~Ariena/scripts/MWBoHuL.baf~
+
+COMPILE EVALUATE_BUFFER ~Ariena/scripts/MWTakeAr.baf~
+
+COMPILE EVALUATE_BUFFER ~Ariena/scripts/MWArnfix.baf~
+
+COMPILE EVALUATE_BUFFER ~Ariena/scripts/MWArbert.baf~
+
+COMPILE EVALUATE_BUFFER ~Ariena/scripts/MWARSC25.baf~
+
+EXTEND_TOP ~Ar6200.bcs~ ~Ariena/scripts/MWArbio.baf~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~Ar0300.bcs~ ~Ariena/scripts/Ar0300.baf~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~Ar1100.bcs~ ~Ariena/scripts/Ar1100.baf~ EVALUATE_BUFFER
+
+ACTION_IF (GAME_IS ~eet~) BEGIN
+EXTEND_BOTTOM ~Ar4000.bcs~ ~Ariena/scripts/Ar4000.baf~ EVALUATE_BUFFER
+END
+
+COPY ~Ariena\cre\MWBoHuL.cre~ ~override\MWBoHuL.cre~
+SAY NAME1 @52
+SAY NAME2 @52
+
+COPY ~Ariena\cre\MWBoHuM.cre~ ~override\MWBoHuM.cre~
+SAY NAME1 @53
+SAY NAME2 @53
+
+COPY ~Ariena\cre\MWBoHu1.cre~ ~override\MWBoHu1.cre~
+SAY NAME1 @54
+SAY NAME2 @54
+
+COPY ~Ariena\cre\MWBoHu2.cre~ ~override\MWBoHu2.cre~
+SAY NAME1 @54
+SAY NAME2 @54
+
+COPY ~Ariena\cre\MWBoHu3.cre~ ~override\MWBoHu3.cre~
+SAY NAME1 @54
+SAY NAME2 @54
+
+COPY ~Ariena\cre\MWBoHu4.cre~ ~override\MWBoHu4.cre~
+SAY NAME1 @54
+SAY NAME2 @54
+
+COPY ~Ariena\cre\MWBoHu5.cre~ ~override\MWBoHu5.cre~
+SAY NAME1 @54
+SAY NAME2 @54
+
+COPY ~Ariena\cre\MWAndia.cre~ ~override\MWAndia.cre~
+SAY NAME1 @55
+SAY NAME2 @55
+
+COPY_EXISTING ~HPrelate.cre~ ~override~
+ADD_CRE_ITEM ~MWWesLet~ #0 #0 #0 ~None~ ~inv1~
+
+COPY_EXISTING ~Bertrand.cre~ ~override~
+WRITE_ASCII DEATHVAR ~Bertrand~ #32
+
+COPY ~Ariena\audio~ ~override~
+
+COPY ~Ariena\items\MWArArm.itm~ ~override~
+SAY NAME1 @56
+SAY NAME2 @56
+SAY DESC @57
+SAY UNIDENTIFIED_DESC @58
+
+COPY ~Ariena\items\MWWeslet.itm~ ~override~
+SAY NAME1 @59
+SAY NAME2 @59
+SAY DESC @60
+SAY UNIDENTIFIED_DESC @60
+
+
+APPEND ~pdialog.2da~
+~MWAriena      MWArnP      MWArnJ      MWArnD      MWArnP25      MWArnJ25      MWArnD25      MWArn25~
+UNLESS ~MWAriena~
+
+APPEND ~interdia.2da~
+~MWAriena      MWBArn      MWBArn25~
+UNLESS ~MWAriena~
+
+PRINT ~ INSTALLING OF PORTRAITS BY ENKIDA~
+
+COPY ~Ariena\portraits~ ~override~
+
+ADD_JOURNAL @134 @136 @155 @157 @159 @163 USING ~Ariena/%s/MWArnJ.tra~

@@ -1,0 +1,85 @@
+IF
+Global("StartEndBios","AR6200",1)
+InParty("MWAriena")
+!Global("ArienaFallen","GLOBAL",1)
+!Global("ArienaRedemption","GLOBAL",1)
+Global("PlayerChoseEssence","GLOBAL",1)
+Global("ArBio","GLOBAL",0)
+THEN
+RESPONSE #100
+ SetGlobal("ArBio","GLOBAL",1)
+ TextScreen("AREND1")
+ SmallWait(1)
+ Continue()
+END
+
+IF
+Global("StartEndBios","AR6200",1)
+InParty("MWAriena")
+!Global("ArienaFallen","GLOBAL",1)
+!Global("ArienaRedemption","GLOBAL",1)
+Global("PlayerChoseEssence","GLOBAL",0)
+Global("ArBio","GLOBAL",0)
+THEN
+RESPONSE #100
+ SetGlobal("ArBio","GLOBAL",1)
+ TextScreen("AREND2")
+ SmallWait(1)
+ Continue()
+END
+
+IF
+Global("StartEndBios","AR6200",1)
+InParty("MWAriena")
+Global("ArienaFallen","GLOBAL",1)
+Global("PlayerChoseEssence","GLOBAL",1)
+Global("ArBio","GLOBAL",0)
+THEN
+RESPONSE #100
+ SetGlobal("ArBio","GLOBAL",1)
+ TextScreen("AREND3")
+ SmallWait(1)
+ Continue()
+END
+
+IF
+Global("StartEndBios","AR6200",1)
+InParty("MWAriena")
+Global("ArienaFallen","GLOBAL",1)
+Global("PlayerChoseEssence","GLOBAL",1)
+Global("ArBio","GLOBAL",0)
+THEN
+RESPONSE #100
+ SetGlobal("ArBio","GLOBAL",1)
+ TextScreen("AREND4")
+ SmallWait(1)
+ Continue()
+END
+
+IF
+Global("StartEndBios","AR6200",1)
+InParty("MWAriena")
+Global("ArienaRedemption","GLOBAL",1)
+Global("PlayerChoseEssence","GLOBAL",1)
+Global("ArBio","GLOBAL",0)
+THEN
+RESPONSE #100
+ SetGlobal("ArBio","GLOBAL",1)
+ TextScreen("AREND5")
+ SmallWait(1)
+ Continue()
+END
+
+IF
+Global("StartEndBios","AR6200",1)
+InParty("MWAriena")
+Global("ArienaRedemption","GLOBAL",1)
+Global("PlayerChoseEssence","GLOBAL",1)
+Global("ArBio","GLOBAL",0)
+THEN
+RESPONSE #100
+ SetGlobal("ArBio","GLOBAL",1)
+ TextScreen("AREND6")
+ SmallWait(1)
+ Continue()
+END

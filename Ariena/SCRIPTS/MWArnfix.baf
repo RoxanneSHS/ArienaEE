@@ -1,0 +1,59 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+      CutSceneID("MWAriena")
+      SetName(~Ariena~)
+  SetPlayerSound(Myself,~Ariena needs you to fight also, weaklings. Ariena no takes all fights alone!~ [MWArn1],MORALE)
+  SetPlayerSound(Myself,~Ariena is happy, she no be with weak leader. Me choose good.~ [MWArn2],HAPPY)
+  SetPlayerSound(Myself,~You needs more think about you. No needs to be so nice. It no helps.~ [MWArn3],UNHAPPY_ANNOYED)
+  SetPlayerSound(Myself,~You is stupid! Ariena tells no is good to be nice. Makes you weak. You listens to Ariena!~ [MWArn4],UNHAPPY_SERIOUS)
+  SetPlayerSound(Myself,~Ariena no follows weakling! Me leave!~ [MWArn5],UNHAPPY_BREAKING_POINT)
+  SetPlayerSound(Myself,~Me will smash them!~ [MWArn6],BATTLE_CRY1)
+  SetPlayerSound(Myself,~Ariena gets power? Ariena never has had power before. Me likes!~ [MWArn7],LEADER)
+  SetPlayerSound(Myself,~Ariena even needs sleep. It no wise to fight when eyes wants to close.~ [MWArn8],TIRED)
+  SetPlayerSound(Myself,~If you is thinking so much, can you not gives Ariena something to fights?!~ [MWArn9],BORED)
+  SetPlayerSound(Myself,~Me have had worse. You no worries about Ariena.~ [MWArn10],HURT)
+  SetPlayerSound(Myself,~You needs me to smash?~ [MWArn11],SELECT_COMMON1)
+  SetPlayerSound(Myself,~Me listen.~ [MWArn12],SELECT_COMMON2)
+  SetPlayerSound(Myself,~What?!~ [MWArn13],SELECT_COMMON3)
+  SetPlayerSound(Myself,~If Ariena gets good share.~ [MWArn14],SELECT_ACTION1)
+  SetPlayerSound(Myself,~Me will try.~ [MWArn15],SELECT_ACTION2)
+  SetPlayerSound(Myself,~Okay.~ [MWArn16],SELECT_ACTION3)
+  SetPlayerSound(Myself,~Only is scratch.~ [MWArn17],DAMAGE)
+  SetPlayerSound(Myself,~If Ariena comes back, me kill you.~ [MWArn18],DYING)
+  SetPlayerSound(Myself,~We can finds good meat here to eat. Ariena hunts for wild boar?~ [MWArn19],AREA_FOREST)
+  SetPlayerSound(Myself,~Ariena finds city no nice. Many looks at Ariena. Ariena ought to kill them all!~ [MWArn20],AREA_CITY)
+  SetPlayerSound(Myself,~Place makes Ariena thinks back of many moons... Ariena no likes it!~ [MWArn21],AREA_DUNGEON)
+  SetPlayerSound(Myself,~Ariena no likes sun. It no friend of Ariena.~ [MWArn22],AREA_DAY)
+  SetPlayerSound(Myself,~Moon time is nice. Ariena still sees, but many not. Makes Ariena better.~ [MWArn23],AREA_NIGHT)
+  SetPlayerSound(Myself,~Ariena wants to fight! Me no want stupid task!~ [MWArn24],SELECT_ACTION4)
+  SetPlayerSound(Myself,~You really needs Ariena to does that?~ [MWArn25],SELECT_ACTION5)
+  SetPlayerSound(Myself,~Ariena likes fight better, but me will do it.~ [MWArn26],SELECT_ACTION6)
+  SetPlayerSound(Myself,~Ariena wants to taste blood, smell blood, feel blood! It be too long ago!~ [MWArn27],SELECT_RARE2)
+  SetPlayerSound(Myself,~DIE!!!~ [MWArn30],CRITICAL_HIT)
+  SetPlayerSound(Myself,~It no happens again!~ [MWArn31],CRITICAL_MISS)
+  SetPlayerSound(Myself,~Ariena no is strong enough to gives pain.~ [MWArn32],TARGET_IMMUNE)
+  SetPlayerSound(Myself,~Ariena no has place to put item. You finds it in the dirt.~ [MWArn33],INVENTORY_FULL)
+  SetPlayerSound(Myself,~RRRAARRHHH!~ [MWArn34],BATTLE_CRY2)
+  SetPlayerSound(Myself,~Me squash your head!~ [MWArn35],BATTLE_CRY3)
+  SetPlayerSound(Myself,~Me want to fight!~ [MWArn28],SELECT_COMMON4)
+  SetPlayerSound(Myself,~What you needs?~ [MWArn29],SELECT_COMMON5)
+  SetPlayerSound(Myself,~Me be okay to fight.~ [MWArn36],SELECT_COMMON6)
+  SetPlayerSound(Myself,~Ariena is okay to do what you wishes.~ [MWArn37],SELECT_RARE1)
+  SetPlayerSound(Myself,~Huh, Weakling.~ [MWArn38],REACT_TO_DIE_GENERAL)
+  EndCutSceneMode()
+END
+
+
+
+
+
+
+
+
+
+
+
+
+

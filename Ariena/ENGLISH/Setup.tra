@@ -1,0 +1,112 @@
+@0    = ~Ariena the Half-orc~
+@1    = ~You do not appear to have TOB installed.~
+@2    = ~Bloodlust Rage~
+@3    = ~Pit Fighter~
+@4    = ~PIT FIGHTER:  Whether by choice or by slavery, the Pit Fighter learned the art of combat in the death pits of any large city in the world. The Pit Fighter is a quick combatant, not the least bit troubled not to fight fair. The enslaved Pit fighters never had any decent weapon training and thus had to make themselves familiar with the weapons that were used in the pits, resulting in a less perfect use of the weapons. Whereas the professional fighters, who fight by choice are most of the times show-offs, trying to please the crowd and do not go for the kill when the opportunity for humiliation is first available.
+
+Weapon Proficiencies:
+-  All melee weapons up to grand-mastery.
+-  All weapon styles, up the max attainable.
+
+Advantages:
+-  Starts with 6 extra profiency points
+-  d12 hitdice
+-  +1 to movement rate/5 levels (starting at first level and up until level 16)
+-  May use a "Dirty Trick" 1/day/4 levels: Target opponent must make a save vs. Breath or suffer the effects of Blindness for 4 rounds.  Save vs. Breath has a penalty: -1 per 4 levels (until 5 uses at level 16)
+
+Disadvantages:
+-  Can not become proficient with ranged weapons, except for slings (up to mastery)
+-  Can not use armor heavier than chainmail
+-  -2 damage with every attack~
+@5    = ~Dirty Trick~
+@6    = ~Ariena~
+@7    = ~Ariena needs you to fight also, weaklings. Ariena no takes all fights alone!~ [MWArn1]
+@8    = ~Ariena is happy, she no be with weak leader. Me choose good.~ [MWArn2]
+@9    = ~You needs more think about you. No needs to be so nice. It no helps.~ [MWArn3]
+@10   = ~You is stupid! Ariena tells no is good to be nice. Makes you weak. You listens to Ariena!~ [MWArn4]
+@11   = ~Ariena no follows weakling! Me leave!~ [MWArn5]
+@12   = ~Me will smash them!~ [MWArn6]
+@13   = ~Ariena gets power? Ariena never has had power before. Me like!~ [MWArn7]
+@14   = ~Ariena even needs sleep. It no wise to fight when eyes wants to close.~ [MWArn8]
+@15   = ~If you is thinking so much, can you not gives Ariena something to fights?!~ [MWArn9]
+@16   = ~Me have had worse. You no worries about Ariena.~ [MWArn10]
+@17   = ~You needs me to smash?~ [MWArn11]
+@18   = ~Me listen.~ [MWArn12]
+@19   = ~What?!~ [MWArn13]
+@20   = ~If Ariena gets good share.~ [MWArn14]
+@21   = ~Me will try.~ [MWArn15]
+@22   = ~Okay.~ [MWArn16]
+@23   = ~Only is scratch.~ [MWArn17]
+@24   = ~If Ariena comes back, me kill you.~ [MWArn18]
+@25   = ~We can finds good meat here to eat. Ariena hunts for wild boar?~ [MWArn19]
+@26   = ~Ariena finds city no nice. Many looks at Ariena. Ariena ought to kill them all!~ [MWArn20]
+@27   = ~Place makes Ariena thinks back of many moons... Ariena no likes it!~ [MWArn21]
+@28   = ~Ariena no likes sun. It no friend of Ariena.~ [MWArn22]
+@29   = ~Moon time is nice. Ariena still sees, but many not. Makes Ariena better.~ [MWArn23]
+@30   = ~Ariena wants to fight! Me no want stupid task!~ [MWArn24]
+@31   = ~You really needs Ariena to does that?~ [MWArn25]
+@32   = ~Ariena likes fight better, but me will do it.~ [MWArn26]
+@33   = ~Ariena wants to taste blood, smell blood, feel blood! It be too long ago!~ [MWArn27]
+@34   = ~Me want to fight!~ [MWArn28]
+@35   = ~What you needs?~ [MWArn29]
+@36   = ~DIE!!!~ [MWArn30]
+@37   = ~It no happens again!~ [MWArn31]
+@38   = ~Ariena no is strong enough to gives pain.~ [MWArn32]
+@39   = ~Ariena no has place to put item. You finds it in the dirt.~ [MWArn33]
+@40   = ~RRRAARRHHH!~ [MWArn34]
+@41   = ~Me squash your head!~ [MWArn35]
+@42   = ~Me be okay to fight.~ [MWArn36]
+@43   = ~Ariena is okay to do what you wishes.~ [MWArn37]
+@44   = ~Huh, Weakling.~ [MWArn38]
+@45   = ~When asked about her history ARIENA grunts and tells that she of an unusual half-orc heritage, as the human part of her comes actually from her Aasimar mother. She has never known her mother, but has been told this by her owner to whom her mother gave her away. She didn't want to raise a Half-Orc, disgust as she already was from the rape. Ariena says that she was actually 'lucky', that someone would accept a Half-Orc in the frozen lands around Luskan. She was raised to fuel her orc-blood fighting small animals, as a child, in big pits, while all sorts of people encouraged her and the animals to kill each other. As she grew up, so did her opponents, so to speak, to even the extend that she began to fight against other humanoids and Orogs, Ogrillons and other large savage humanoids. She disposed all of them and became reasonable popular. At a certain moment she won a great tournament. Her owner was so overjoyed, and therefore extremely drunk, that he forgot about Ariena's thoughts about him. As he came too close to her cage she killed him with her bare hands. She mounted his head on a spike outside her 'private' cage. She killed all whom she believed got in her way of freedom without mercy or remorse. Thus she had been forced to flee from luskan authority and other officials because of the chaos she has caused within their lands. She swears that she will kill all that oppose or wronged her, as she has learned that nothing else helps but cold steel to get her point across.~
+@46   = ~When <CHARNAME> ascended, Ariena was left once again without guidance. For all she had done and seen, she remained the great Half-orc fighter from Luskan raised to be in touch with her bestial nature. Survival was the only instinct she ever knew and she still followed it. However, an infamous name does not open many doors and it didn't take long before Ariena came into conflict with society again. Her life came almost full circle for again she ran. However, Ariena had grown in strength and it now took three divisions of the Tetherian Army in order to make her run. Encircling her Ariena fled through the Starspire Mountains into the Forest of Tethir, running away from the ruins of Saradush. Many men and women from the law found their lives shortened by Ariena before she reached Velen in the west. With her share of the money of <CHARNAME>'s party she went away to The Nelanther, also known as the Pirate Isles. Here she found the free live she wanted, full of brawl and lawlessness. Ariena became a feared first mate. Not merely feared by merchant traders and their guards, but also the crew for her punishments. Ariena's live presumably ended when her captain's ship fell to assault of fireballs from a sea traveling mage.~
+@47   = ~After the Bhaalspawn Prophecies came to fulfillment, Ariena remained the first years close to the person she trusted the most: <CHARNAME>. Though the former Child of Bhaal certainly did not require a bodyguard when myths were already there while <PRO_HESHE> still lived, Ariena became it none the less. Wherever <CHARNAME> went for a new quest Ariena followed. After a couple of years Ariena parted with <CHARNAME>, leaving <POR_HIMHER> for a Luskan outlawed party whom wanted to get back at the city and its surrounding. This fitted quite nicely into her own personal quest of slaughtering all those that were somehow involved in slave pit fights. Countless nobles, law enforcers, slave holders, merchants and bounty hunters lost their live to the killing spree of Ariena and her new found party. Ariena met her end, when one of their own backstabbed them in their sleep for a pardon and a large bag of gold. They say he was hang the next morning when he came to collect his bounty.~
+@48   = ~After <CHARNAME> ascended, Ariena became one of the first followers. A templar that protected the faithful and places of unholiness of <CHARNAME>. She may never have had love for gods, but she had seen this ones works first hand and reveled in the slaughter promised by the rising of a new god of murder and <PRO_HISHER> church. Many followers of faith fell under her mighty blows, may they pay homage to Cyric, Torm, Lathander or any other one crusading against the dark forces of <CHARNAME>. Ariena surely made a great difference for the church of <CHARNAME>, nearly protecting on her own the flock in the first few months of the new church. When the church was well established Ariena went out to fulfill her own personal quest. The one of killing all those that were involved in slave pit fights in the north. With prays to <CHARNAME> on her lips, asking for a grand massacre, she went to Luskan. Backed up by the powers of <CHARNAME> she was near unstoppable. In no recordings of the Sword Coast was there ever a one person massacre so great and bloody as the one Ariena created. Not only did she kill those directly involved, but she went through and slaughtered the rest of their families beforehand, saving them for last. When the elite of the North gathered it finally looked like her days where at an end. When they met a brutal and bloody fight erupted, Ariena took several down, but even Ariena could not stand up to the finest of the North. She was after all but a one-woman-army. They say, however, that she never was truly killed though. For, before the final and deadly blow was given to her she ascended, because of all the murder she had spread. Now it is said she stands besides <CHARNAME> as <PRO_HISHER> punisher, always eager to give this to anyone crossing <CHARNAME>.~
+@49   = ~Ariena refused to stay with <CHARNAME> after <PRO_HISHER> did not dare to ascend. She was true to her word and on her journey she gladly told people that <CHARNAME> was nothing more then a pantsywaist. She even helped some bounty hunters out that had set (foolishly) out to bring <CHARNAME> down for <PRO_HISHER> deeds. However, Ariena made her own journey and still owed <CHARNAME> for giving her the insights she now head, so did not care for attacking <PRO_HISHER>, certainly not with bounty hunters as allies. Her own journey took her north, as she still had sworn to herself to kill all those involved in the slave pitfights of Luskan and its surroundings. At first she had the element of surprise and her killing spree first went as she wanted, bloody and brutal. However, Ariena remained little more then a savage rampaging beast and it was not long before she fell in to a trap laid out by Luskan authorities. She surely would have perished, if not for sudden increase in orcish blood on the battlefield killing the archers on the higher laid ledge. Ariena had in her wild killing spree also killed a Luskan official involved in withholding the orcs of the Spine of the World. Grudeth the Bloodthirsty gladly poured out of hiding and by chance hit the Luskan battalion charged with 'apprehending' Ariena. The two were united and under their clan more people found their deaths then officially is being admitted. Though eventually defeated, the rumors of the orcish clan of Grudeth and Ariena will never cease to exist.~
+@50   = ~When <CHARNAME> ascended, Ariena took it upon here to defend <PRO_HISHER> church for a while. She reckoned she owed <PRO_HIMHER> that much. For but a small payment she protected all those that came to the new believe, but never struck out. She cared not to make enemies for gods, even if she would help <CHARNAME>. However, the job was, after one can understand from a newly rising church, badly paid, so she soon went out for her own. She cared little to lay her live on the line for some old oath she took in killing her former enemies in the north. Instead, after saying goodbye to her mother, she set out to see new things and continued on her path down south and even onto the planes. Ariena always remained her simple self, but few in the planes can say they traveled with a god and have seen so many things or lived through so many things. It is unknown in which fight on which plane Ariena lost her live, if she did, but it is said that to all planar travelers she met she always talked about <CHARNAME> with gratitude and admiration.~
+@51   = ~Ariena soon parted ways with <CHARNAME>, as she wished to travel along. She would travel and survive, she thanked <CHARNAME> but had no need to stay with <PRO_HIMHER>. She also cared little to lay her live on the line for some old oath she took in killing her former enemies in the north. Instead, after saying goodbye to her mother, she set out to see new things and continued on her path down south and even onto the planes. Ariena always remained her simple self, but few in the planes can say they traveled with a god and see so many things or lived through so many things. It is unknown in which fight on which plane Ariena lost her live, if she did, but it is said that to all planar travelers she met she always talked about <CHARNAME> with gratitude and admiration.~
+@52   = ~Bounty Hunter~
+@53   = ~Mercenary Mage~
+@54   = ~Mercenary~
+@55   = ~Andia~
+@56   = ~Ariena's Armor~
+@57   = ~Ariena's Armor
+Ariena comes from the North, near Luskan, where many tribes and clans of barbaric humanoids live. Therefore it is not to uncommon to find a magical hide armor in the North. The real origin of this hide armor is unknown, but it was the prize for first place in a grand tournament held near Luskan for all pit fighters. Though Ariena faced some of her most challenging opponents in this tournament, she did become the champion and thus winning the armor. It is the only item she did take with her on her flight from the North. It protects the wearer from blows, even if it did not fend the blow off completely. It was especially made for brawling fighters and thus fits only to those adapted to this form of fighting.
+
+STATISTICS:
+
+Armor Class: 3
+Special: 10 slashing, bludgeoning and piercing resistance
+Weight: 40
+Requires: 17 Strength
+Usable By:
+ Ariena~
+@58   = ~Hide Armor is made from the thick skin of large animals (elephants, for example) or layers of thinner, more common leather.  It is considered too cumbersome for use in advanced human cultures, but is common among more barbaric humanoids.  It offers better protection than normal leather, but can be hard to maintain, often resulting in an offensive odor or shoddy appearance that prevents effective use.  Thieves can wear this armor, but it has a negative effect on their abilities.
+
+STATISTICS:
+
+Armor Class: 6
+Move Silently: -20
+Lock Picking: -10
+Find/Remove Traps: -10
+Pick Pockets: -10
+Weight: 40
+Requires: 6 Strength
+Not Usable By:
+ Mage~
+@59   = ~Letter to Prelate Wessan~
+@60   = ~12th of the Elient 1353
+
+Dear Prelate Wessan,
+
+I once again must say that I can not express my gratitude to you more than enough. I have arrived safely at the shelter you have so kindly acquired for me. It has been trying journey for me, after the vicious rape and the knowledge I gave my child away to a stranger, but in a small hamlet such as the Umar Hills one can indeed find ointment for body and soul. My experience has provided me with a task as local midwife. I still wish it would have gone otherwise and that I hadn't the need to ask you for favors, but I reckon I should be thankful that events did not turn worse.
+
+I hope that you aspirations for Prelate of the Noble Order of the Most Radiant Heart shall be succesful. I for one deem you more then worthy. For the last time I thank you, for so much understanding and for the sheltering even though you would have loved to seen otherwise. I seal this letter with a kiss. It is forever yours to have.
+
+Love,
+Andia Chatee~
+@61   = ~Default portraits?~
+@62   = ~Which of Ariena's portraits do you wish to install?~
+@63   = ~Bright default portraits?~
+@64   = ~HERD's portraits?~
+@65   = ~Do you wish to install the Grand Mastery Fix?~

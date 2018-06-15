@@ -1,0 +1,7 @@
+IF
+ Global("ArienaExists","AR0300",0)
+THEN
+ RESPONSE #100
+ SetGlobal("ArienaExists","AR0300",1)
+ CreateCreature("MWArn",[4544.2236],2)
+END

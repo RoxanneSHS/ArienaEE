@@ -1,0 +1,9 @@
+IF
+InPartyAllowDead("MWAriena")
+Global("MWArienaExistsToBJoin","ar4000",0)
+THEN
+RESPONSE #100
+SetGlobal("MWArienaExistsToBJoin","ar4000",1)
+ActionOverride("MWAriena",ChangeAIScript("MWARSC25",OVERRIDE))
+Continue()
+END

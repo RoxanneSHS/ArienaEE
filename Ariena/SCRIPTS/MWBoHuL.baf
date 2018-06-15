@@ -1,0 +1,13 @@
+IF
+See("MWAriena")
+!StateCheck("MWAriena",CD_STATE_NOTVALID)
+See(Player1)
+Global("Arcombatbohu","GLOBAL",1)
+THEN
+RESPONSE #100
+SetInterrupt(FALSE)
+SetGlobal("Arcombatbohu","GLOBAL",2)
+FaceObject("MWAriena")
+SetInterrupt(TRUE)
+Dialog(Player1)
+END

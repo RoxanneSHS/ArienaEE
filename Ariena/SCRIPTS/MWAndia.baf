@@ -1,0 +1,29 @@
+IF
+Global("GoToInn","LOCALS",0)
+Global("VillageSaved","GLOBAL",1)
+THEN
+RESPONSE #100
+SetGlobal("GoToInn","LOCALS",1)
+EscapeAreaMove("AR1105",809,415,15)
+END
+
+IF
+ !AreaCheck("AR1105")
+ !Global("VillageSaved","GLOBAL",1)
+ OR(2)
+ TimeOfDay(DUSK)
+ TimeOfDay(NIGHT)
+THEN
+ RESPONSE #100
+ EscapeAreaMove("AR1105",809,415,15)
+END
+
+IF
+ !AreaCheck("AR1100")
+ !Global("VillageSaved","GLOBAL",1)
+ !TimeOfDay(DUSK)
+ !TimeOfDay(NIGHT)
+THEN
+ RESPONSE #100
+ EscapeAreaMove("AR1100",4486,2552,7)
+END

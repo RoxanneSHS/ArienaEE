@@ -1,0 +1,15 @@
+IF
+  True()
+THEN
+  RESPONSE #100
+    CutSceneId("MWAriena") 
+    MoveViewObject(Myself,INSTANT)
+    ActionOverride("Bertrand",FaceObject("MWAriena"))
+    FaceObject("Bertrand")
+    PlaySound("MWArn35")
+    SwingOnce()
+    ActionOverride("Bertrand",Recoil())
+    ActionOverride("Bertrand",PlayDead(120))
+    SetGlobal("MWBertPulped","GLOBAL",1)
+    ActionOverride("Bertrand",StartDialogueNoSet(Player1))
+ END
