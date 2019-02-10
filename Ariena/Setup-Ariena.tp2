@@ -249,12 +249,16 @@ COMPILE EVALUATE_BUFFER ~Ariena/scripts/MWArbert.baf~
 
 COMPILE EVALUATE_BUFFER ~Ariena/scripts/MWARSC25.baf~
 
-EXTEND_TOP ~Ar6200.bcs~ ~Ariena/scripts/MWArbio.baf~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~Ar0300.bcs~ ~Ariena/scripts/Ar0300.baf~ EVALUATE_BUFFER
-EXTEND_BOTTOM ~Ar1100.bcs~ ~Ariena/scripts/Ar1100.baf~ EVALUATE_BUFFER
+EXTEND_TOP ~Ar6200.bcs~ ~Ariena/scripts/MWArbio.baf~
+ EVALUATE_BUFFER
+EXTEND_BOTTOM ~Ar0300.bcs~ ~Ariena/scripts/Ar0300.baf~
+ EVALUATE_BUFFER
+EXTEND_BOTTOM ~Ar1100.bcs~ ~Ariena/scripts/Ar1100.baf~
+ EVALUATE_BUFFER
 
 ACTION_IF (GAME_IS ~eet~) BEGIN
-EXTEND_BOTTOM ~Ar4000.bcs~ ~Ariena/scripts/Ar4000.baf~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~Ar4000.bcs~ ~Ariena/scripts/Ar4000.baf~
+ EVALUATE_BUFFER
 END
 
 COPY ~Ariena\cre\MWBoHuL.cre~ ~override\MWBoHuL.cre~
@@ -295,7 +299,7 @@ ADD_CRE_ITEM ~MWWesLet~ #0 #0 #0 ~None~ ~inv1~
 COPY_EXISTING ~Bertrand.cre~ ~override~
 WRITE_ASCII DEATHVAR ~Bertrand~ #32
 
-COPY ~Ariena\audio~ ~override~
+LAF HANDLE_AUDIO END
 
 COPY ~Ariena\items\MWArArm.itm~ ~override~
 SAY NAME1 @56
