@@ -435,19 +435,19 @@ IF ~!Class(Player1,PALADIN) !Class(Player1,CLERIC_ALL)~ THEN REPLY @180 EXTERN M
 IF ~~ THEN REPLY @181 EXTERN MWArnJ malargaragos
 IF ~~ THEN REPLY @182 EXIT
 
-CHAIN IF ~Global("nolikegods","GLOBAL",2)~ THEN MWArnJ searawforgods
+CHAIN IF ~~ THEN MWArnJ searawforgods
 @183
 DO ~SetGlobal("nolikegods","GLOBAL",3) LeaveParty() EscapeAreaMove("AR0300",4544,2236,2)~
 EXIT
 
-CHAIN IF ~Global("nolikegods","GLOBAL",2)~ THEN MWArnJ malargaragos
+CHAIN IF ~~ THEN MWArnJ malargaragos
 @184
 END
 IF ~~ THEN REPLY @185 DO ~SetGlobal("nolikegods","GLOBAL",4)~ EXIT
 IF ~~ THEN REPLY @186 DO ~SetGlobal("nolikegods","GLOBAL",4)~ EXIT
 IF ~~ THEN REPLY @187 EXTERN MWArnJ arnocaplopargo
 
-CHAIN IF ~Global("nolikegods","GLOBAL",2)~ THEN MWArnJ arnocaplopargo
+CHAIN IF ~~ THEN MWArnJ arnocaplopargo
 @188
 END
 IF ~~ THEN REPLY @189 DO ~SetGlobal("nolikegods","GLOBAL",5)~ EXIT
