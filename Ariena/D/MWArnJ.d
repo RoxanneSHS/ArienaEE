@@ -625,7 +625,7 @@ I_C_T MOURNER1 4 sidewithnevin
  @264
 END
 
-I_C_T TIRDIR 5 Nohelptirdir
+INTERJECT_COPY_TRANS2 TIRDIR 5 Nohelptirdir
  == MWArnJ IF ~InParty("MWAriena") See("MWAriena")~ THEN
  @265
 END
