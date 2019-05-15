@@ -152,8 +152,8 @@ Ariena wanted to search for her mother, thinking the Order of the Most Radiant H
 @147  = ~Ariena is happy Ariena was right and that we finds the where mother of Ariena is at. We goes there now?~
 @148  = ~Sure, I am just as interested as you are, what your mother is going to say in her defense.~
 @149  = ~Not right now, but we will certainly put it in the agenda.~
-@150  = ~Well, Prelate Wessan thought it was a good idea if you two would talk, so I guess it might indeed be prudent to go at once.~
-@151  = ~I first want to give you some time to think about what you want to say, as well as give Prelate Wessan the time to perhaps send a message to your mother.~
+@150  = ~Well, Prelate Wessalen thought it was a good idea if you two would talk, so I guess it might indeed be prudent to go at once.~
+@151  = ~I first want to give you some time to think about what you want to say, as well as give Prelate Wessalen the time to perhaps send a message to your mother.~
 @152  = ~Haha, we just killed the Order of the Most Radiant Heart and you seem to dismiss the fact as if it were nothing, asking immediately what is our next move.~
 @153  = ~Yeah, there is nothing you can not get with some good old steel, sweat and blood.~
 @154  = ~Ariena wants to find out to.~
@@ -163,17 +163,17 @@ After 'collecting' the information from the Order of the Most Radiant Heart, I n
 @156  = ~Ariena finds okay. Me wait for many moons, me no truly care if be one or two more.~
 @157  = ~Facing the past
 
-After 'collecting' the information from the Order of the Most Radiant Heart, I now know that Ariena's mother lives in the Umar Hills. It will be very interresting to see what will happen when the two of them meet.~
+After 'collecting' the information from the Order of the Most Radiant Heart, I now know that Ariena's mother lives in the Umar Hills. It will be very interesting to see what will happen when the two of them meet.~
 @158  = ~Yeah, knight be nice to you and Ariena. Me not know before they could be nice. Ariena never talks that much with one, always me fight them. Ariena thinks me ought to do what he says and talk to mother of Ariena good.~
 @159  = ~Facing the past
 
-Prelate Wessan was sympathetic to Ariena's cause, and thought it perhaps to have a healing effect, if the two woman would speak with each other. He told us he himself helped Ariena's mother settle in Amn, about 20 years ago, within the Umar Hills, where she works as a midwife.~
+Prelate Wessalen was sympathetic to Ariena's cause, and thought it perhaps to have a healing effect, if the two woman would speak with each other. He told us he himself helped Ariena's mother settle in Amn, about 20 years ago, within the Umar Hills, where she works as a midwife.~
 @160  = ~Ariena thinks maybe is good idea. Me have many questions, but me no know good how to ask all. Nice knight also say it be good if Ariena talks with mother of Ariena good. Me not know before they could be nice. Ariena never talks that much with one, always me fight them. Me need to think about that to.~
 @161  = ~They no gives us what we wants, so we had to take what we wants. Me no think that special. Ariena sees this everywhere, where me be going. They just is stupid for not helping you and Ariena.~
 @162  = ~I could not have said it any better.~
 @163  = ~Facing the past
 
-After slaughtering the Order of the Most Radiant Heart, I found a letter on Prelate Wessan his corpse detailing where Ariena's mother lives. I guess we need to travel to the Umar Hills, if I want those two to meet.~
+After slaughtering the Order of the Most Radiant Heart, I found a letter on Prelate Wessalen his corpse detailing where Ariena's mother lives. I guess we need to travel to the Umar Hills, if I want those two to meet.~
 @164  = ~Instinct of Ariena already tells Ariena, but now me know for sure.~
 @165  = ~Ariena thanks you. You helps Ariena kill hunt of Ariena.~ [MWArn52]
 @166  = ~It was done with pleasure, Ariena.~
@@ -190,7 +190,7 @@ After slaughtering the Order of the Most Radiant Heart, I found a letter on Prel
 @177  = ~Have they never helped you? Have you never been helped through the healing power of divine magic? You take such things for mere granted? Quite a foolish vision, if truth were need to be told.~
 @178  = ~They has never cared for Ariena, so why they now cares what Ariena says. Me spit on gods with no problem.~
 @179  = ~I take offense of what you said, Ariena. You know me to be a religious <PRO_MANWOMAN>. Get yourself out of my sight!~
-@180  = ~I might not be a religious person, but I do wish the favor of the gods. I am surely not going to get it with you in my party, if you are like that. Get yourself out of my sight!~
+@180  = ~I might not be a religious person, but I do wish the favour of the gods. I am surely not going to get it with you in my party, if you are like that. Get yourself out of my sight!~
 @181  = ~Do you really not pay lip service to any god? It is very bad to defile all gods, Ariena. You must pay some homage to at least one god, if it be just for your own survival.~
 @182  = ~Pah. I do not care either for such things. Let us just walk on, shall we?~
 @183  = ~You is stupid to send Ariena away for that.~
@@ -203,7 +203,7 @@ After slaughtering the Order of the Most Radiant Heart, I found a letter on Prel
 @190  = ~I am sorry, Ariena, but I do care. Get out of my party.~
 @191  = ~They is going to fight to see which gets turf of Ariena.~
 @192  = ~Ye picked a fine man to be travellin' with.~
-@193  = ~Me no can stay here. You knows it. You no speaks of it anymore!~
+@193  = ~Me no can stay here. You knows it. You no speaks of it any more!~
 @194  = ~Sure, I don't wanna be gettin' in a fight with ye.~
 @195  = ~He no needs luck, he needs to smash.~
 @196  = ~You no stops it. If you kills him, all docks against you and fights still is going on.~
@@ -245,21 +245,21 @@ After slaughtering the Order of the Most Radiant Heart, I found a letter on Prel
 @232  = ~I am afraid that is too dangerous. I guess we just have to give up this plan.~
 @233  = ~Yes.~
 @234  = ~You have the support of the order. Ask and I will see what I can do to help you.~
-@235  = ~I am traveling with the child of an Aasimar. She would like to find her mother. Do you have by chance any idea where I can find an Aasimar that came from the North and was victim of rape?~
-@236  = ~Does the order keep track of aasimar traveling the land?~
+@235  = ~I am travelling with the child of an Aasimar. She would like to find her mother. Do you have by chance any idea where I can find an Aasimar that came from the North and was victim of rape?~
+@236  = ~Does the order keep track of aasimar travelling the land?~
 @237  = ~There are precious few in the ranks of the order and we know of some outside of our order. However, I would first want to hear your intentions before I am willing to part with the information.~
-@238  = ~Ariena, my traveling companion, is the daughter of an Aasimar who was the victim of rape. Ariena has had a harsh youth and is curious about her mother's motives for abandoning her. They need to talk, I reckon.~
+@238  = ~Ariena, my travelling companion, is the daughter of an Aasimar who was the victim of rape. Ariena has had a harsh youth and is curious about her mother's motives for abandoning her. They need to talk, I reckon.~
 @239  = ~Oh, there are some questions that must be answered.~
-@240  = ~I am merely conducting some research into planetouched and all that stuff.~
+@240  = ~I am merely conducting some research into plane touched and all that stuff.~
 @241  = ~Meet justice viper!~
 @242  = ~That almost sounds like a thread. You mean to bring harm to this creature?~
 @243  = ~If you and she would be so kind as to help, I am sure there will be no need for it. Do you not deem it necessary that mother and daughter would talk about such a cruel past? If they never come face to face, you are just sustaining pain and anger.~
 @244  = ~Let us be wise and part ways. I see this isn't going to work.~
 @245  = ~Well, she left her child to fend it fighting pits. It is merely justice catching up, if she would come to harm.~
 @246  = ~Now there is a thought.~
-@247  = ~I think I can give you an adequate amount of information about that topic. There is no need to speak with a planetouched for such things. So, tell me the true reason, ask your question directly to me or leave.~
+@247  = ~I think I can give you an adequate amount of information about that topic. There is no need to speak with a plane touched for such things. So, tell me the true reason, ask your question directly to me or leave.~
 @248  = ~Okay, I will give in that I am looking for an Aasimar, because my companion needs to talk to her, one way or the other.~
-@249  = ~I am sorry you will not do. I want a true planetouched.~
+@249  = ~I am sorry you will not do. I want a true plane touched.~
 @250  = ~Look, just give me what I need before I begin to loose my temper.~
 @251  = ~I will tell you what I know. However, if she come to harm, know the order will seek vengeance.~
 @252  = ~Understood.~
@@ -356,7 +356,7 @@ She lives nowadays in the Umar Hills. She works as a midwife. Her name is Andia 
 @342  = ~Me know for sure you is no weakling in that form! Me no know what you became, but me think you is even stronger then Ariena is in that form.~
 @343  = ~Can you does that at will? If you can, you oughts to do it more often. It makes big change in fights.~
 @344  = ~Well, actually this slithering viper is in need of information. Information the Order may just have and I am not going away until I get some answers.~
-@345  = ~Well met, Prelate Wessan. I would ask the order for a hint of information.~
+@345  = ~Well met, Prelate Wessalen. I would ask the order for a hint of information.~
 @346  = ~May I ask, if the Order has any information about Aasimar living within the borders of the city or if possible Amn?~
 @347  = ~Ariena, the ferocious and brute fighter. She has done so much to gain her freedom. Does she comprehend what you are about to face? Even if so, will she be loyal enough to lay her life in the balance to take down Irenicus?~
 @348  = ~It is time for the last big brawl, Ariena. I need you to be as ferocious and bloodthirsty as possible.~
