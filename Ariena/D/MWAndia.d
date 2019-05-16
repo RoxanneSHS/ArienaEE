@@ -179,6 +179,7 @@ ActionOverride("MWAndia",MoveToObject("MWAriena"))
 ActionOverride("MWAndia",FaceObject("MWAriena"))
 SetGlobal("ArienaRedemption","GLOBAL",1)
 ChangeAlignment("MWAriena",NEUTRAL)
-Wait(3)~ EXIT
+Wait(3)
+ActionOverride("MWAndia",EscapeArea())~ EXIT
 END
 END
