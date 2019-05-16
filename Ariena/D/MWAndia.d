@@ -147,7 +147,7 @@ CHAIN MWAndia MWCONAndiaCh4
 == MWANDIA @91
 == MWARNJ @92
 == MWANDIA @93 DO ~ActionOverride("MWAndia",EscapeArea())~
-END
+EXIT
 
 APPEND MWARNJ
 IF ~~ THEN BEGIN MWArFallen
