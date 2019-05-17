@@ -65,7 +65,7 @@ CombatCounter(0)
 == BANOME25 @24
 == MWBArn25 @25
 == BANOME25 @26
-END
+EXIT
 
 CHAIN IF ~Global("MWBAMA251","GLOBAL",0)
 InParty("MWAriena")
@@ -92,7 +92,7 @@ GlobalGT("chapter","GLOBAL",%bg2_chapter_8%)
 == BMAZZY25 @34
 == MWBArn25 @35
 == BMAZZY25 @36
-END
+EXIT
 
 CHAIN IF ~Global("MWBAMI251","GLOBAL",0)
 InParty("MWAriena")
@@ -122,7 +122,7 @@ CombatCounter(0)
 == BMINSC25 @49
 == MWBArn25 @50
 == BMINSC25 @51
-END
+EXIT
 
 CHAIN IF ~Global("MWBAAE251","GLOBAL",0)
 InParty("Aerie")
@@ -175,7 +175,7 @@ CombatCounter(0)
 == BKORGA25 @72
 == MWBArn25 @73
 == BKORGA25 @74
-END
+EXIT
 
 CHAIN IF ~Global("MWBAV251","GLOBAL",0)
 InParty("MWAriena")
@@ -194,7 +194,7 @@ CombatCounter(0)
 == BVICON25 @82
 == BKELDO25 IF ~InParty("Keldorn")~ THEN @83 
 == BVICON25 @84
-END
+EXIT
 
 CHAIN IF ~Global("MWBAV252","GLOBAL",0)
 InParty("MWAriena")
@@ -210,7 +210,7 @@ CombatCounter(0)
 == BVICON25 @91
 == MWBArn25 @92
 == BVICON25 @93
-END
+EXIT
 
 CHAIN IF ~Global("MWBAS251","GLOBAL",0)
 InParty("Sarevok")
@@ -223,7 +223,7 @@ CombatCounter(0)
 == BSAREV25 @97
 == MWBArn25 @98
 == BSAREV25 @99
-END
+EXIT
 
 CHAIN IF ~Global("MWBAS252","GLOBAL",0)
 InParty("Sarevok")
@@ -237,7 +237,7 @@ CombatCounter(0)
 == MWBArn25 IF ~!Global("ArienaRedemption","GLOBAL",1) !Global("ArienaFallen","GLOBAL",1)~ THEN @103
 == BSAREV25 @104
 == MWBArn25 @105
-END
+EXIT
 
 CHAIN IF ~Global("MWBAIM25","GLOBAL",0)
 InParty("MWAriena")
@@ -254,7 +254,7 @@ CombatCounter(0)
 == BIMOEN25 @113
 == MWBArn25 @114
 == BIMOEN25 @115
-END
+EXIT
 
 CHAIN IF ~Global("MWBAJ25","GLOBAL",0)
 InParty("Jan")
@@ -265,8 +265,8 @@ CombatCounter(0)
 == BJAN25 @117
 == MWBArn25 @118
 == BJAN25 @119
-= @120
-END
+== BJAN25 @120
+EXIT
 
 CHAIN IF ~Global("MWBAVA25","GLOBAL",0)
 InParty("Valygar")
@@ -283,7 +283,7 @@ CombatCounter(0)
 == BVALYG25 @124
 == MWBArn25 @125
 == BVALYG25 @126
-END
+EXIT
 
 CHAIN IF ~Global("MWBAJH25","GLOBAL",0)
 InParty("MWAriena")
@@ -295,7 +295,7 @@ CombatCounter(0)
 == BJAHEI25 @128
 == MWBArn25 @129
 == BJAHEI25 @130
-END
+EXIT
 
 CHAIN IF ~Global("MWBAC25","GLOBAL",0)
 InParty("Cernd")
@@ -312,7 +312,7 @@ CombatCounter(0)
 == BCERND25 @136
 == MWBArn25 @137
 == BCERND25 @138
-END
+EXIT
 
 CHAIN IF ~Global("MWBAN25","GLOBAL",0)
 InParty("MWAriena")
@@ -327,7 +327,7 @@ CombatCounter(0)
 == BNALIA25 @143
 == MWBArn25 @144
 == BNALIA25 @145
-END
+EXIT
 
 CHAIN IF ~Global("MWBAK25","GLOBAL",0)
 InParty("MWKido")
@@ -340,4 +340,4 @@ CombatCounter(0)
 == MWBKid25 IF ~Gender(Player1,Male)~ THEN @149
 == MWBKid25 IF ~Gender(Player1,Female)~ THEN @150
 == MWBArn25 @151
-END
+EXIT
