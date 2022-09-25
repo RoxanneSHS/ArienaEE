@@ -38,7 +38,7 @@ END
 
 IF ~~ THEN BEGIN goangry
   SAY @13
-  IF ~~ THEN REPLY ~~ DO ~MoveToPointNoInterrupt([1943.1861])~ EXIT
+  IF ~~ THEN DO ~MoveToPoint([1943.1861])~ EXIT
 END
 
 IF ~NumTimesTalkedToGT(0)~ THEN BEGIN ASecMeeting25
