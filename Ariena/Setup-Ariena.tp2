@@ -35,6 +35,7 @@ END
 
 
 LANGUAGE ~English~ ~english~ ~Ariena\english\setup.tra~
+LANGUAGE ~Schinese~ ~schinese~ ~Ariena\schinese\setup.tra~
 
 BEGIN @0
 
