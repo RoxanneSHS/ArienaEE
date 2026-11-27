@@ -132,7 +132,7 @@ THEN
 RESPONSE #100
 SetGlobal("Arbrynreact","LOCALS",1)
 Wait(4)
-DisplayStringHead(Myself,~They at least no is wuss around here.~)
+DisplayStringHead(Myself,@0)
 END
 
 IF
@@ -142,7 +142,7 @@ THEN
 RESPONSE #100
 SetGlobal("Arbrynreact2","LOCALS",1)
 Wait(4)
-DisplayStringHead(Myself,~They at least no is wuss around here.~)
+DisplayStringHead(Myself,@0)
 END
 
 IF
@@ -200,7 +200,7 @@ Global("Arperqu","GLOBAL",6)
 PartyHasItem("MWWesLet")
 THEN
 RESPONSE #100
-DisplayStringHead(Player1, ~It seems this old letter comes from Ariena's mother.~)
+DisplayStringHead(Player1, @1)
 AddXPObject(Player1,4500)
 AddXPObject(Player2,4500)
 AddXPObject(Player3,4500)
